@@ -1,3 +1,5 @@
+import CharK2SO from "../../assets/imgs/char-k2so.jpg";
+import CharC3PO from "../../assets/imgs/char-c3po.jpg";
 import CharRey from "../../assets/imgs/char-rey.jpg";
 import CharFinn from "../../assets/imgs/char-finn.jpg";
 import CharLuke from "../../assets/imgs/char-luke.jpg";
@@ -10,6 +12,32 @@ import CharHanSolo from "../../assets/imgs/char-han-solo.jpg";
 import CharDarthVader from "../../assets/imgs/char-darth-vader.jpg";
 
 export default [
+  {
+    id: "k2so",
+    rank: 1200,
+    name: "K-2SO",
+    photo: CharK2SO,
+    keyline: "I find that argument vague and unconvincing.",
+    who: [
+      "The lanky, cranky ex-Imperial security droid who helps the Rebels break into the Imperial compound in ‘Rogue One’. Think C-3PO with a bad attitude and verbal diarrhoea (though with the same clipped British accent)."
+    ],
+    why: [
+      "Because he’s the first Star Wars sidekick who’s genuinely funny – K-2’s way with a dry, often unintentional putdown is sardonically hilarious. The design is great, too – he’s all hulking and ungainly, like an overgrown metal teenager."
+    ]
+  },
+  {
+    id: "c3po",
+    rank: 1100,
+    name: "C-3PO",
+    photo: CharC3PO,
+    keyline: "We’re doomed.",
+    who: [
+      "A gleaming golden God to some, a deeply annoying buzz-kill to others, protocol droid Threepio is fluent in over 6,000,000 forms of communication, and boy does he love to go on about it."
+    ],
+    why: [
+      "If Threepio had restricted himself to the original ‘Star Wars’ trilogy he’d be higher on this list: his appearances in those movies, whether it’s berating R2-D2 for his obstinacy, tapping Han Solo on the shoulder mid-snog or awkwardly buddying up to Jabba the Hutt, are consistently charming and funny. But the prequel trilogy tended to use him as an automatic gag generator, punctuating the action with inappropriate asides (‘this is such a drag!’). Also, how did a slave boy on a remote desert world manage to build a droid that knows 6,000,000 languages? Anyway, let’s hope the new movies restore our cybernetic hero to his former glory."
+    ]
+  },
   {
     id: "rey",
     rank: 1000,

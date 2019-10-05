@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
+import appRoutes from "../../shared/appRoutes";
 import { sortBy } from "lodash";
 import CharList from "./characterList";
 
@@ -21,13 +23,14 @@ class CharactersPage extends Component {
         <div className="row">
           {chars.map((char, idx) => {
             return (
-              <div
-                className="col-xl-3 col-lg-4 col-md-6 col-sm-12 CharContainer"
+              <Link
                 key={char.id}
+                to={`${appRoutes.characters}/${char.id}`}
+                className="col-xl-3 col-lg-4 col-md-6 col-sm-12 CharContainer"
               >
                 <img src={char.photo} alt={char.name} />
                 <h5 className="CharName">{char.name}</h5>
-              </div>
+              </Link>
             );
           })}
         </div>

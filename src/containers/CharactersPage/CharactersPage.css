@@ -5,7 +5,13 @@
   transition: all 0.15s ease-in;
 }
 
+.CharContainer {
+  color: inherit;
+}
+
 .CharContainer:hover {
+  color: inherit;
+  text-decoration: none;
   opacity: 1;
   transform: scale(1.1);
 }

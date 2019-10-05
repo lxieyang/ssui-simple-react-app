@@ -31,7 +31,7 @@ const NavBar = () => {
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to={appRoutes.characters} exact>
+              <NavLink className="nav-link" to={appRoutes.characters}>
                 Characters
               </NavLink>
             </li>

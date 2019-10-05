@@ -6,6 +6,7 @@ import NavBar from "./containers/NavBar/NavBar";
 import Footer from "./containers/Footer/Footer";
 import HomePage from "./containers/HomePage/HomePage";
 import CharactersPage from "./containers/CharactersPage/CharactersPage";
+import CharacterPage from "./containers/CharactersPage/CharacterPage/CharacterPage";
 import "./App.css";
 
 const app = () => {
@@ -20,6 +21,9 @@ const app = () => {
           </Route>
           <Route exact path={appRoutes.characters}>
             <CharactersPage />
+          </Route>
+          <Route exact path={appRoutes.character}>
+            <CharacterPage />
           </Route>
           <Redirect to={appRoutes.home} />
         </Switch>
