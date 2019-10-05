@@ -1,0 +1,19 @@
+.CharContainer {
+  padding: 15px;
+  cursor: pointer;
+  opacity: 0.75;
+  transition: all 0.15s ease-in;
+}
+
+.CharContainer:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.CharContainer img {
+  width: 100%;
+}
+
+.CharName {
+  text-align: center;
+}

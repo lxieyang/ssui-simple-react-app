@@ -1,0 +1,12 @@
+.Footer {
+  margin-bottom: 30px;
+}
+
+.LogoContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.LogoContainer img {
+  height: 50px;
+}
