@@ -13,6 +13,27 @@ const Footer = () => {
           <img src={Logo} alt="logo" />
         </Link>
       </div>
+      <br />
+      <div className="SourceContainer">
+        Information adapted from{" "}
+        <a
+          href="https://en.wikipedia.org/wiki/Star_Wars"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          https://en.wikipedia.org/wiki/Star_Wars
+        </a>
+      </div>
+      <div className="SourceContainer">
+        Information adapted from{" "}
+        <a
+          href="https://www.timeout.com/london/film/star-wars-characters-list"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          https://www.timeout.com/london/film/star-wars-characters-list
+        </a>
+      </div>
     </div>
   );
 };

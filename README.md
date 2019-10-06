@@ -1,6 +1,4 @@
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/929ba3e2-2281-4ba8-8f76-d06bf770c961/deploy-status)](https://app.netlify.com/sites/ssui-simple-react-app/deploys)
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/929ba3e2-2281-4ba8-8f76-d06bf770c961/deploy-status)](https://app.netlify.com/sites/ssui-star-wars/deploys)
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

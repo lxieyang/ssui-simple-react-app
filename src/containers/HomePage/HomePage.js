@@ -67,8 +67,6 @@ const homePage = () => {
           <YouTube
             videoId="iXDnFYu91vY"
             opts={{
-              height: "390",
-              width: "640",
               playerVars: {
                 autoplay: 0
               }
