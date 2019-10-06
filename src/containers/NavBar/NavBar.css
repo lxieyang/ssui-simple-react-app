@@ -5,3 +5,7 @@
 .navbar-brand img {
   height: 100%;
 }
+
+.nav-item {
+  font-family: StarWars;
+}

@@ -1,6 +1,7 @@
 import React from "react";
 import { useParams } from "react-router";
 import charList from "../characterList";
+import "./CharacterPage.css";
 
 const CharacterPage = () => {
   const { id } = useParams();
@@ -15,10 +16,9 @@ const CharacterPage = () => {
           <img style={{ width: "100%" }} src={photo} alt={name} />
         </div>
         <div className="col-lg-8 col-md-6 col-sm-12">
-          <h1>{name}</h1>
-          <div>
-            <strong>Keyline:</strong> {keyline}
-          </div>
+          <h1 className="CharacterName">{name}</h1>
+          <p className="KeylineContainer">{keyline}</p>
+          <br />
           <br />
 
           <h4>Who?</h4>

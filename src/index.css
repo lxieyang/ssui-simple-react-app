@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "StarWars";
+  src: local("StarWars"), url(./fonts/STARWARS.woff) format("woff");
+}
+
 body {
   margin: 0;
 }
