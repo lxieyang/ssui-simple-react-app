@@ -2,8 +2,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/929ba3e2-2281-4ba8-8f76-d06bf770c961/deploy-status)](https://app.netlify.com/sites/ssui-star-wars/deploys)
 
-
-This project is a starter example of what to do for SSUI HW6 and the final project. See the finished result at [https://ssui-star-wars.netlify.com](https://ssui-star-wars.netlify.com)
+This project is a starter example of what to do for [SSUI HW4](http://www.cs.cmu.edu/~bam/uicourse/05631fall2020/HW4/index.html). See the finished result at [https://ssui-star-wars.netlify.com](https://ssui-star-wars.netlify.com)
 
 To use this template:
 
@@ -11,7 +10,7 @@ To use this template:
 - Run `npm install`
 - Start the development server by running `npm start`
 
---------
+---
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -26,7 +25,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
-
 
 ### `npm run build`
 
