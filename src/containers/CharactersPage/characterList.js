@@ -11,7 +11,7 @@ import CharLeia from "../../assets/imgs/char-leia.jpg";
 import CharHanSolo from "../../assets/imgs/char-han-solo.jpg";
 import CharDarthVader from "../../assets/imgs/char-darth-vader.jpg";
 
-export default [
+const charList = [
   {
     id: "k2so",
     rank: 1200,
@@ -178,3 +178,5 @@ export default [
     ]
   }
 ];
+
+export default charList;
