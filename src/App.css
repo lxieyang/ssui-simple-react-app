@@ -1,0 +1,39 @@
+.EntryContainer {
+  padding: 15px;
+  cursor: pointer;
+  opacity: 0.75;
+  transition: all 0.15s ease-in;
+}
+
+.EntryContainer {
+  color: inherit;
+}
+
+.EntryContainer:hover {
+  color: inherit;
+  text-decoration: none;
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.EntryContainer img {
+  width: 100%;
+}
+
+.EntryName {
+  font-family: StarWars;
+}
+
+.EntryContainer .EntryName {
+  text-align: center;
+}
+
+.KeylineContainer {
+  display: inline-block;
+  font-family: StarWars;
+  border: 3px solid black;
+  border-radius: 5px;
+  padding: 3px 8px;
+  box-shadow: 0 4px 8px 0 rgba(250, 185, 60, 0.4),
+    0 6px 20px 0 rgba(250, 185, 60, 0.4);
+}

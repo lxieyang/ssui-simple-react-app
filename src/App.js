@@ -7,6 +7,8 @@ import Footer from "./containers/Footer/Footer";
 import HomePage from "./containers/HomePage/HomePage";
 import CharactersPage from "./containers/CharactersPage/CharactersPage";
 import CharacterPage from "./containers/CharactersPage/CharacterPage/CharacterPage";
+import MoviesPage from "./containers/MoviesPage/MoviesPage";
+import MoviePage from "./containers/MoviesPage/MoviePage/MoviePage";
 import "./App.css";
 
 const app = () => {
@@ -19,12 +21,18 @@ const app = () => {
           <Route exact path={appRoutes.home}>
             <HomePage />
           </Route>
+          <Route exact path={appRoutes.movies}>
+            <MoviesPage />
+          </Route>
+          <Route exact path={appRoutes.movie}>
+            <MoviePage />
+          </Route>
           <Route exact path={appRoutes.characters}>
             <CharactersPage />
           </Route>
           <Route exact path={appRoutes.character}>
             <CharacterPage />
-          </Route>
+          </Route> 
           <Redirect to={appRoutes.home} />
         </Switch>
       </div>

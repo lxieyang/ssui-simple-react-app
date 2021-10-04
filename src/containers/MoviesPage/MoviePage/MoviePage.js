@@ -1,11 +1,11 @@
 import React from 'react';
 import { useParams } from 'react-router';
-import charList from '../characterList';
+import movieList from '../movieList';
 
-const CharacterPage = () => {
+const MoviePage = () => {
   const { id } = useParams();
-  const char = charList.filter((char) => char.id === id)[0];
-  const { name, photo, keyline, who, why } = char;
+  const movie = movieList.filter((mov) => mov.id === id)[0];
+  const { name, photo, releaseDate, synopsis } = movie;
 
   return (
     <div className='container'>
@@ -16,22 +16,16 @@ const CharacterPage = () => {
         </div>
         <div className='col-lg-8 col-md-6 col-sm-12'>
           <h1 className='EntryName'>{name}</h1>
-          <p className='KeylineContainer'>{keyline}</p>
+          <p className='KeylineContainer'>{releaseDate}</p>
           <br />
           <br />
 
-          <h4>Who?</h4>
-          {who.map((p, idx) => {
-            return <p key={idx}>{p}</p>;
-          })}
-          <h4>Why?</h4>
-          {why.map((p, idx) => {
-            return <p key={idx}>{p}</p>;
-          })}
+          <h4>Synopsis</h4>
+          {synopsis}
         </div>
       </div>
     </div>
   );
 };
 
-export default CharacterPage;
+export default MoviePage;
