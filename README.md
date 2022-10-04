@@ -1,8 +1,6 @@
 # SSUI Star Wars
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/929ba3e2-2281-4ba8-8f76-d06bf770c961/deploy-status)](https://app.netlify.com/sites/ssui-star-wars/deploys)
-
-This project is a starter example of what to do for [SSUI HW4](http://www.cs.cmu.edu/~bam/uicourse/05631fall2021/HW4/index.html). See the finished result at [https://ssui-star-wars.netlify.com](https://ssui-star-wars.netlify.com)
+This project is a starter example of what to do for SSUI HW4. See the finished result at [https://lxieyang.github.io/ssui-simple-react-app](https://lxieyang.github.io/ssui-simple-react-app)
 
 To use this template:
 
