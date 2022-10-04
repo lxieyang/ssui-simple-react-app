@@ -1,31 +1,32 @@
-import React from "react";
-import Vader from "../../assets/imgs/darth-banner.jpg";
-import YouTube from "react-youtube";
-import "./HomePage.css";
+import React from 'react';
+import { Container } from 'reactstrap';
+import Vader from '../../assets/imgs/darth-banner.jpg';
+import YouTube from 'react-youtube';
+import './HomePage.css';
 
 const homePage = () => {
-  const _onReady = event => {
+  const _onReady = (event) => {
     // access to player in all event handlers via event.target
     event.target.pauseVideo();
   };
 
   return (
-    <div className="Home">
-      <div className="Banner">
-        <img src={Vader} alt="Vader" />
-        <div className="BannerTextContainer">
-          <div className="BannerText">Welcome</div>
+    <div className='Home'>
+      <div className='Banner'>
+        <img src={Vader} alt='Vader' />
+        <div className='BannerTextContainer'>
+          <div className='BannerText'>Welcome</div>
         </div>
       </div>
       <br />
 
-      <div className="container">
+      <Container>
         <h3>
           Star Wars is an American epic space-opera media franchise created by
           George Lucas.
         </h3>
 
-        <p className="IntroText">
+        <p className='IntroText'>
           The franchise began with the eponymous 1977 film and quickly became a
           worldwide pop-culture phenomenon. The original film, later subtitled
           Episode IV – A New Hope, was followed by the sequels Episode V – The
@@ -45,7 +46,7 @@ const homePage = () => {
           franchise.
         </p>
 
-        <p className="IntroText">
+        <p className='IntroText'>
           The film series was expanded into other media, including television
           series, video games, novels, comic books, theme park attractions and
           themed areas, resulting in an all-encompassing fictional universe. In
@@ -63,18 +64,18 @@ const homePage = () => {
           fifth-highest-grossing media franchise of all-time.
         </p>
 
-        <div className="VideoPlayer">
+        <div className='VideoPlayer'>
           <YouTube
-            videoId="iXDnFYu91vY"
+            videoId='iXDnFYu91vY'
             opts={{
               playerVars: {
-                autoplay: 0
-              }
+                autoplay: 0,
+              },
             }}
             onReady={_onReady}
           />
         </div>
-      </div>
+      </Container>
     </div>
   );
 };

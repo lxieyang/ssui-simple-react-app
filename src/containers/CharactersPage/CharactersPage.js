@@ -1,7 +1,8 @@
 import React from 'react';
+import { sortBy } from 'lodash';
+import { Container, Row, Col } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import appRoutes from '../../shared/appRoutes';
-import { sortBy } from 'lodash';
 import characterList from './characterList';
 
 // https://www.timeout.com/london/film/star-wars-characters-list
@@ -9,24 +10,29 @@ const CharactersPage = () => {
   const chars = sortBy(characterList, ['rank']);
 
   return (
-    <div className='container'>
+    <Container>
       <br />
       <h1>Characters that we love...</h1>
-      <div className='row'>
+      <Row>
         {chars.map((char) => {
           return (
-            <Link
+            <Col
               key={char.id}
+              tag={Link}
               to={`${appRoutes.characters}/${char.id}`}
-              className='col-xl-3 col-lg-4 col-md-6 col-sm-12 EntryContainer'
+              xl={3}
+              lg={4}
+              md={6}
+              sm={12}
+              className='EntryContainer'
             >
               <img src={char.photo} alt={char.name} />
               <h5 className='EntryName'>{char.name}</h5>
-            </Link>
+            </Col>
           );
         })}
-      </div>
-    </div>
+      </Row>
+    </Container>
   );
 };
 

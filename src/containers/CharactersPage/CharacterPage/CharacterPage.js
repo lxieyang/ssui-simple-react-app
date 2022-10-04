@@ -1,5 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router';
+import { Container, Row, Col } from 'reactstrap';
 import charList from '../characterList';
 
 const CharacterPage = () => {
@@ -8,18 +9,16 @@ const CharacterPage = () => {
   const { name, photo, keyline, who, why } = char;
 
   return (
-    <div className='container'>
+    <Container>
       <br />
-      <div className='row'>
-        <div className='col-lg-4 col-md-6 col-sm-12'>
+      <Row>
+        <Col lg={4} md={6} sm={12}>
           <img style={{ width: '100%' }} src={photo} alt={name} />
-        </div>
-        <div className='col-lg-8 col-md-6 col-sm-12'>
+        </Col>
+        <Col lg={8} md={6} sm={12}>
           <h1 className='EntryName'>{name}</h1>
           <p className='KeylineContainer'>{keyline}</p>
           <br />
-          <br />
-
           <h4>Who?</h4>
           {who.map((p, idx) => {
             return <p key={idx}>{p}</p>;
@@ -28,9 +27,9 @@ const CharacterPage = () => {
           {why.map((p, idx) => {
             return <p key={idx}>{p}</p>;
           })}
-        </div>
-      </div>
-    </div>
+        </Col>
+      </Row>
+    </Container>
   );
 };
 

@@ -1,22 +1,22 @@
-import React from "react";
-import { Switch, Route, Redirect } from "react-router-dom";
-import appRoutes from "./shared/appRoutes";
+import React from 'react';
+import { Switch, Route, Redirect } from 'react-router-dom';
+import appRoutes from './shared/appRoutes';
 
-import NavBar from "./containers/NavBar/NavBar";
-import Footer from "./containers/Footer/Footer";
-import HomePage from "./containers/HomePage/HomePage";
-import CharactersPage from "./containers/CharactersPage/CharactersPage";
-import CharacterPage from "./containers/CharactersPage/CharacterPage/CharacterPage";
-import MoviesPage from "./containers/MoviesPage/MoviesPage";
-import MoviePage from "./containers/MoviesPage/MoviePage/MoviePage";
-import "./App.css";
+import NavBar from './containers/NavBar/NavBar';
+import Footer from './containers/Footer/Footer';
+import HomePage from './containers/HomePage/HomePage';
+import CharactersPage from './containers/CharactersPage/CharactersPage';
+import CharacterPage from './containers/CharactersPage/CharacterPage/CharacterPage';
+import MoviesPage from './containers/MoviesPage/MoviesPage';
+import MoviePage from './containers/MoviesPage/MoviePage/MoviePage';
+import './App.css';
 
 const app = () => {
   return (
-    <div className="App">
+    <div className='App'>
       <NavBar />
 
-      <div className="MainContent">
+      <div className='MainContent'>
         <Switch>
           <Route exact path={appRoutes.home}>
             <HomePage />
@@ -32,7 +32,7 @@ const app = () => {
           </Route>
           <Route exact path={appRoutes.character}>
             <CharacterPage />
-          </Route> 
+          </Route>
           <Redirect to={appRoutes.home} />
         </Switch>
       </div>
