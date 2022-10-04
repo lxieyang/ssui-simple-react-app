@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/ssui-simple-react-app/static/css/main.61070f75.css",
+    "main.js": "/ssui-simple-react-app/static/js/main.226725da.js",
+    "static/media/darth-banner.jpg": "/ssui-simple-react-app/static/media/darth-banner.b54716bffdb8c9a847d7.jpg",
+    "static/media/movie-episode-7.jpg": "/ssui-simple-react-app/static/media/movie-episode-7.3024e4ad665a7f7f9d3e.jpg",
+    "static/media/movie-episode-8.jpg": "/ssui-simple-react-app/static/media/movie-episode-8.97411b53083c540e698d.jpg",
+    "static/media/movie-episode-9.jpg": "/ssui-simple-react-app/static/media/movie-episode-9.0cc228e96012dbfa2e15.jpg",
+    "static/media/movie-episode-1.jpg": "/ssui-simple-react-app/static/media/movie-episode-1.dce12a18b3488c745e8c.jpg",
+    "static/media/movie-episode-5.jpg": "/ssui-simple-react-app/static/media/movie-episode-5.4138a5c29a116ee2a567.jpg",
+    "static/media/movie-episode-4.jpg": "/ssui-simple-react-app/static/media/movie-episode-4.01007516bac14ff1a729.jpg",
+    "static/media/movie-episode-2.jpg": "/ssui-simple-react-app/static/media/movie-episode-2.353f60ba8dfc9f5d0ec0.jpg",
+    "static/media/star-wars-logo.png": "/ssui-simple-react-app/static/media/star-wars-logo.4e626b41c8d53055bd1e.png",
+    "static/media/movie-episode-3.jpg": "/ssui-simple-react-app/static/media/movie-episode-3.ab03b343abeff7dadfd0.jpg",
+    "static/media/movie-episode-6.jpg": "/ssui-simple-react-app/static/media/movie-episode-6.4d5f1a6053488c3b14ce.jpg",
+    "static/media/char-c3po.jpg": "/ssui-simple-react-app/static/media/char-c3po.bd8f0ed5f927d19ef81e.jpg",
+    "static/media/char-han-solo.jpg": "/ssui-simple-react-app/static/media/char-han-solo.b1c58b67c23399a402fe.jpg",
+    "static/media/char-chewbacca.jpg": "/ssui-simple-react-app/static/media/char-chewbacca.932badc66e19b279a4db.jpg",
+    "static/media/char-leia.jpg": "/ssui-simple-react-app/static/media/char-leia.233f54a509399610b86a.jpg",
+    "static/media/char-r2d2.jpg": "/ssui-simple-react-app/static/media/char-r2d2.28d1ce3b8b7c4fe92e8e.jpg",
+    "static/media/STARWARS.woff": "/ssui-simple-react-app/static/media/STARWARS.50e674cdc69a7aab575c.woff",
+    "static/media/char-darth-vader.jpg": "/ssui-simple-react-app/static/media/char-darth-vader.5b9f93c0cf7c55697060.jpg",
+    "static/media/char-obiwan.jpg": "/ssui-simple-react-app/static/media/char-obiwan.c23f91b22934dd6eb1f8.jpg",
+    "static/media/char-yoda.jpg": "/ssui-simple-react-app/static/media/char-yoda.97991bfa4d91cab80db0.jpg",
+    "static/media/char-rey.jpg": "/ssui-simple-react-app/static/media/char-rey.54e79968f0850212e14b.jpg",
+    "static/media/char-luke.jpg": "/ssui-simple-react-app/static/media/char-luke.9267c52be504854600d5.jpg",
+    "static/media/char-k2so.jpg": "/ssui-simple-react-app/static/media/char-k2so.d3b044577690fde13059.jpg",
+    "static/media/char-finn.jpg": "/ssui-simple-react-app/static/media/char-finn.a2cf515c7cba55d66298.jpg",
+    "index.html": "/ssui-simple-react-app/index.html",
+    "main.61070f75.css.map": "/ssui-simple-react-app/static/css/main.61070f75.css.map",
+    "main.226725da.js.map": "/ssui-simple-react-app/static/js/main.226725da.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.61070f75.css",
+    "static/js/main.226725da.js"
+  ]
+}
