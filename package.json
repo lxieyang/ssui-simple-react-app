@@ -1,7 +1,7 @@
 {
   "name": "ssui-simple-react-app",
   "version": "2.0.0",
-  "homepage": "https://lxieyang.github.com/ssui-simple-react-app",
+  "homepage": "https://lxieyang.github.io/ssui-simple-react-app/",
   "private": true,
   "dependencies": {
     "bootstrap": "^5.1.3",
