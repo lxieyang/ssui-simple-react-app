@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ssui-simple-react-app/static/css/main.61070f75.css",
-    "main.js": "/ssui-simple-react-app/static/js/main.f561c60c.js",
+    "main.js": "/ssui-simple-react-app/static/js/main.89e1805a.js",
     "static/media/darth-banner.jpg": "/ssui-simple-react-app/static/media/darth-banner.b54716bffdb8c9a847d7.jpg",
     "static/media/movie-episode-7.jpg": "/ssui-simple-react-app/static/media/movie-episode-7.3024e4ad665a7f7f9d3e.jpg",
     "static/media/movie-episode-8.jpg": "/ssui-simple-react-app/static/media/movie-episode-8.97411b53083c540e698d.jpg",
@@ -28,10 +28,10 @@
     "static/media/char-finn.jpg": "/ssui-simple-react-app/static/media/char-finn.a2cf515c7cba55d66298.jpg",
     "index.html": "/ssui-simple-react-app/index.html",
     "main.61070f75.css.map": "/ssui-simple-react-app/static/css/main.61070f75.css.map",
-    "main.f561c60c.js.map": "/ssui-simple-react-app/static/js/main.f561c60c.js.map"
+    "main.89e1805a.js.map": "/ssui-simple-react-app/static/js/main.89e1805a.js.map"
   },
   "entrypoints": [
     "static/css/main.61070f75.css",
-    "static/js/main.f561c60c.js"
+    "static/js/main.89e1805a.js"
   ]
 }
